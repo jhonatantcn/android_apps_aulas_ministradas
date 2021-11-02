@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculadora"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtValor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor 01"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5sp"
+        />
+
+    <EditText
+        android:id="@+id/edtValor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/txtValor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor 02"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5sp"
+        />
+
+    <EditText
+        android:id="@+id/edtValor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btSomar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:text="Somar"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btSubtrair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:text="Subtrair"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btMultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:text="Multiplicar"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btDividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:text="Dividir"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5sp"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
