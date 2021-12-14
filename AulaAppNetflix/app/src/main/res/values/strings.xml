@@ -2,4 +2,14 @@
     <string name="app_name">Netflix</string>
     <string name="jessicaj">Jessica Jones</string>
     <string name="episodio">S1:E2</string>
+    <string name="mensagem">Mensagem</string>
+    <string name="menu_volume">Menu Volume</string>
+    <string name="menu_avaliacoes">Menu Avaliações</string>
+    <string name="menu_episodios">Menu Episódios</string>
+    <string name="video">Vídeo sendo reproduzido</string>
+    <string name="tempoMinimo">00:01</string>
+    <string name="tempoMaximo">42:00</string>
+    <string name="voltar">Voltar</string>
+    <string name="executar">Executar</string>
+    <string name="pausar">Pausar</string>
 </resources>
