@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base da aplicação. -->
+    <style name="Theme.AulaAppNetflix" parent="Theme.MaterialComponents.DayNight">
+        <!-- Cores primárias da marca. -->
+        <item name="colorPrimary">@color/vermelho</item>
+        <item name="colorPrimaryVariant">@color/vermelhoEscuro</item>
+        <item name="colorOnPrimary">@color/vermelhoClaro</item>
+        <item name="colorAccent">@color/vermelhoClaro</item>
+
+        <!-- Cor da barra de Status. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Cor do texto da barra de Aplicativo. -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- Cor de todos os textos internos do app. -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

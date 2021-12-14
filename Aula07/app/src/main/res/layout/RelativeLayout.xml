@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nome do lembrete" />
+    <EditText
+        android:id="@+id/data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="insira a data"
+        android:layout_below="@id/nome"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/hora"/>
+    <EditText
+        android:id="@id/hora"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:hint="hora"
+        android:layout_below="@id/nome"
+        android:layout_alignParentRight="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hora"
+        android:layout_alignParentRight="true"
+        android:text="Pronto" />
+</RelativeLayout>

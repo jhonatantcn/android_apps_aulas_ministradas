@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vermelho">#D61E21</color>
+    <color name="vermelhoEscuro">#780000</color>
+    <color name="vermelhoClaro">#FF4F4F</color>
+    <color name="fundoApp">#FF393939</color>
+</resources>
